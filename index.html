@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center w-100 vh-100 main"
+    >
+      <div class="calc bg-black p-3 rounded-4 shadow-lg">
+        <div class="w-100 header">
+          <input type="text" class="w-100 bg-dark text-light" placeholder="0" />
+        </div>
+        <div class="btns mt-4">
+          <button class="btn-c btn btn-secondary rounded-circle">c</button>
+          <button class="btn-del btn btn-secondary rounded-circle">del</button>
+          <button
+            class="btn btn-secondary rounded-circle btn-operat"
+            id="op-btn"
+          >
+            %
+          </button>
+
+          <button class="btn btn-warning rounded-circle btn-operat" id="op-btn">
+            /
+          </button>
+          <button class="btn-op btn btn-dark rounded-circle">7</button>
+          <button class="btn-op btn btn-dark rounded-circle">8</button>
+          <button class="btn-op btn btn-dark rounded-circle">9</button>
+          <button class="btn btn-warning rounded-circle btn-operat" id="op-btn">
+            *
+          </button>
+          <button class="btn-op btn btn-dark rounded-circle">4</button>
+          <button class="btn-op btn btn-dark rounded-circle">5</button>
+          <button class="btn-op btn btn-dark rounded-circle">6</button>
+          <button class="btn-op btn btn-warning rounded-circle" id="op-btn">
+            -
+          </button>
+          <button class="btn-op btn btn-dark rounded-circle">1</button>
+          <button class="btn-op btn btn-dark rounded-circle">2</button>
+          <button class="btn-op btn btn-dark rounded-circle">3</button>
+          <button class="btn-op btn btn-warning rounded-circle" id="op-btn">
+            +
+          </button>
+          <button class="btn-op btn btn-dark btn0 rounded-pill">0</button>
+          <button class="btn-op btn btn-dark rounded-circle">.</button>
+          <button class="btn btn-warning rounded-circle equal-btn">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
